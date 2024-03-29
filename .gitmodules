@@ -1,0 +1,3 @@
+[submodule "mygithubpage"]
+	path = mygithubpage
+	url = git@github.com:jairovelasquez/mygithubpage.git
