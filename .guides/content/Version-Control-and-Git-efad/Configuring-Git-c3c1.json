@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#terminal: clear"
+		}
+	],
+	"id": "c3c1be5b-b7e2-2ff7-0027-1c3fce5a4ec2",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Configuring Git",
+	"type": "page"
+}

@@ -1,0 +1,59 @@
+{
+	"source": {
+		"name": "$SHELL",
+		"showName": false,
+		"instructions": "Select your response and click the button below to submit.",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "19dcb114-53fa-20ee-bbce-6188411b6038",
+				"correct": true,
+				"answer": "It's an environmental variable that tells us which shell is currently active."
+			},
+			{
+				"_id": "507a5e61-a5ba-be7b-0a4f-7941fa2d1543",
+				"correct": false,
+				"answer": "It's a user-defined variable that tells us which version of Bash we're using."
+			},
+			{
+				"_id": "2e4dab67-1484-4d43-42b8-a6ace359039d",
+				"correct": false,
+				"answer": "It's an environmental variable that holds the absolute path to the current working directory."
+			},
+			{
+				"_id": "d4e389cf-2dae-e365-7778-128334e47f39",
+				"correct": false,
+				"answer": "It's a command to switch the active shell."
+			}
+		],
+		"guidance": "The `$SHELL` environmental variable allows us to see what shell is open and currently active. We can use `echo $SHELL` in the terminal to display this information.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-3796425193",
+	"type": "multiple-choice"
+}

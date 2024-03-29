@@ -1,0 +1,54 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "638a4494-f8a1-a033-11d8-6320778006b7",
+				"answer": "`pwd`",
+				"correct": true
+			},
+			{
+				"_id": "517b119f-6428-d37e-6c1a-9c0ce6f22673",
+				"answer": "`mkdir`",
+				"correct": false
+			},
+			{
+				"_id": "27a23f5d-2fa9-6254-f7a8-a82a34a98d3b",
+				"answer": "`cd`",
+				"correct": false
+			},
+			{
+				"_id": "4034700c-029b-7b1e-1a55-7c86e0602881",
+				"answer": "`ls`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "`pwd` stands for \"Path to Working Directory\"\n\n`mkdir` makes a directory\n\n`ls` lists files and folders\n\n`cd` means change directory",
+		"incorrectPoints": 0,
+		"instructions": "**Which of the following shell commands displays the directory the user is currently working in?**",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Use the shell for basic tasks and navigating file structures",
+		"points": 2,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3896722739",
+	"type": "multiple-choice"
+}

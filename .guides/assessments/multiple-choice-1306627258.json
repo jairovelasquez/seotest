@@ -1,0 +1,55 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "69d66a74-7a13-02e7-204a-93d36a7aec34",
+				"answer": "`git checkout -b dev-branch`",
+				"correct": true
+			},
+			{
+				"_id": "917f615a-4510-c717-c475-12cbb0071ce9",
+				"answer": "`git branch -b dev-branch`",
+				"correct": false
+			},
+			{
+				"_id": "2aa129b8-1a61-fd9f-b9ed-98b16345d7ec",
+				"answer": "`git log dev-branch`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"guidance": "We can use both the `git switch -c dev-branch` and `git checkout -b dev-branch` to create a new branch in our repository named `dev-branch`.",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following commands can be used to create a new development branch in our repository?\n\n**Hint:** There may be more than one correct answer.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear;",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "Introduction to Version Control: Branches",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1306627258",
+	"type": "multiple-choice"
+}

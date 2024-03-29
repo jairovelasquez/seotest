@@ -1,0 +1,55 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "b22b3c08-6099-5e9f-1eee-5ededbdc69cc",
+				"answer": "Contexts",
+				"correct": true
+			},
+			{
+				"_id": "2c9eb1cc-9747-3f6a-59f1-bb4f40246f32",
+				"answer": "Jobs",
+				"correct": false
+			},
+			{
+				"_id": "665d8858-7904-0e01-0b98-566bdcd6fffb",
+				"answer": "Actions",
+				"correct": false
+			},
+			{
+				"_id": "1b4c8d53-d0e9-e253-367d-7c8506ed5462",
+				"answer": "Workflows",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "**Contexts** store information about workflow runs, runner environments, jobs, and steps as attributes",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following stores information about workflow runs, runner environments, jobs, and steps as attributes?\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Github and Automation: Expressions \u0026 Context",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-675694016",
+	"type": "multiple-choice"
+}

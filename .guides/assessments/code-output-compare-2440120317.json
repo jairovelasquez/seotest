@@ -1,0 +1,65 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/challengeTests/challenge3test.sh",
+		"guidance": "",
+		"instructions": "This is a test.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"Challenge/challenge3.sh"
+			],
+			"opened": [
+				{
+					"content": "Challenge/challenge3.sh",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				},
+				{
+					"content": "clear",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "challenge3",
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 20,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "",
+				"output": "",
+				"showFeedback": false
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false
+	},
+	"taskId": "code-output-compare-2440120317",
+	"type": "code-output-compare"
+}

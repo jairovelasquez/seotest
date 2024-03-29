@@ -1,0 +1,59 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "3c287131-071f-53b9-421b-10d16d2134bf",
+				"answer": "Other developers are only able to view the code in your repository.",
+				"correct": true
+			},
+			{
+				"_id": "b57d4a9c-0b8c-1482-ad1c-cef6962f3480",
+				"answer": "Other developers will be able to edit the code in your repository.",
+				"correct": false
+			},
+			{
+				"_id": "3c8a19f3-3f5f-ae23-3116-74a5645ff414",
+				"answer": "Other developers can fork a copy of your repository that doesn't affect the original repo.",
+				"correct": true
+			},
+			{
+				"_id": "49c7a28a-96c4-75d1-1cd9-9f31f96e4c80",
+				"answer": "Other developers will not be able to view the code in your repository.",
+				"correct": false
+			},
+			{
+				"_id": "bfb4dbb6-c125-0927-c7eb-828951cd8c13",
+				"answer": "Only you will be able to make edits to the code in your repository.",
+				"correct": true
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "When you create a **public repository**:\n- Only you will be able to make edits to the code in your repository.\n- Other developers are only able to view the code in your repository.\n- Other developers can fork a copy of your repository that doesn't affect the original repo.\n",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following accurately describes a ++public repository++ on GitHub?\n\n**\u003cp\u003eClick the button below to submit\u003c/p\u003e**\n\n**Hint:**There may be more than one correct answer!\n\n---",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "Version Control \u0026 GitHub: Creating a GitHub Repository",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-239786644",
+	"type": "multiple-choice"
+}

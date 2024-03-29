@@ -1,0 +1,117 @@
+{
+	"source": {
+		"name": "Challenge 2",
+		"showName": false,
+		"instructions": "### When you are finished writing your script, click the `Check It!` button to check your work.",
+		"command": "bash .guides/bashtests/challengeTests/challenge2test.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```bash\necho \"Reporting for user: $USER\" > introduction.txt \necho \"The home directory is $HOME\" >> introduction.txt \nls /notReally 1>output.txt 2>error.txt\nsort < champs.txt > alpha-winners.txt\ncat alpha-winners.txt | less\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "User Variable",
+				"output": "00",
+				"showFeedback": true,
+				"feedback": "Be sure to redirect to the correct file using the environmental variable containing the user’s name"
+			},
+			{
+				"arguments": "",
+				"input": "Home Variable",
+				"output": "00",
+				"showFeedback": true,
+				"feedback": "Be sure to append to the correct file using the environmental variable containing the home directory."
+			},
+			{
+				"arguments": "",
+				"input": "List Directory",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to list the contents of the /notReally directory."
+			},
+			{
+				"arguments": "",
+				"input": "STDOUT",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to redirect the standard output to the correct file."
+			},
+			{
+				"arguments": "",
+				"input": "STDERR",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to redirect the standard error to the correct file."
+			},
+			{
+				"arguments": "",
+				"input": "Sort Champs",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Redirect the contents of a file called champs.txt to be used as input into the command sort"
+			},
+			{
+				"arguments": "",
+				"input": "Alpha Winner",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Redirect the results of the input redirection into a file called alpha-winners.txt"
+			},
+			{
+				"arguments": "",
+				"input": "Pipe Less",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to pipe the contents of the file through the less command."
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"Challenge/challenge2.sh"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "Challenge/challenge2.sh"
+				},
+				{
+					"type": "terminal",
+					"content": ""
+				},
+				{
+					"type": "terminal",
+					"content": "clear"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "code-output-compare-1132736023",
+	"type": "code-output-compare"
+}

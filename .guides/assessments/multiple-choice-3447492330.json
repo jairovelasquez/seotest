@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "3624b1e6-9d7d-93d2-6c10-a0c9e0c9452d",
+				"answer": "`git merge dev-branch`",
+				"correct": true
+			},
+			{
+				"_id": "e79ed829-44ef-ec1f-5a9f-6d2dd970c6f9",
+				"answer": "`git merge main`",
+				"correct": false
+			},
+			{
+				"_id": "204038f2-6554-15fb-ced4-8ba43754d856",
+				"answer": "`git update dev-branch`",
+				"correct": false
+			},
+			{
+				"_id": "6bebc23b-6e64-97bc-088e-34d35d6e8cf6",
+				"answer": "`git commit dev-branch`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "When positioned in the main branch of the repository, we can use the `git merge dev-branch` command to merge all changes from a branch called `dev-branch` to the main branch.",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following is the correct command to merge a development branch with the main branch?\n\n\u003cp\u003eClick the button below to submit\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear;",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Introduction to Version Control: Merging and Conflicts",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3447492330",
+	"type": "multiple-choice"
+}

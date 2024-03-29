@@ -1,0 +1,44 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "JSON\nTXT\nHTML",
+		"guidance": "Workflows for GitHub Actions are stored in **YAML** files.",
+		"instructions": "### Fill in the blank to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Github and Automation: Workflows",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "Workflows for GitHub Actions are stored in \u003c\u003c\u003cYAML\u003e\u003e\u003e files.",
+		"tokens": {
+			"blank": [
+				"YAML"
+			],
+			"regexPositions": [],
+			"text": [
+				"Workflows for GitHub Actions are stored in ",
+				0,
+				" files."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1644221429",
+	"type": "fill-in-the-blanks"
+}

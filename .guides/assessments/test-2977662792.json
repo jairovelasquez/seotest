@@ -1,0 +1,75 @@
+{
+	"libraryId": "e7baf97d-0347-4842-88f3-373c276fba2c",
+	"linkedId": "42b7bf58-cc12-45b2-86f0-cf81304f7ed0",
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "6",
+		"command": "bash .guides/bashtests/arrayTest.sh",
+		"guidance": "",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "SWBAT Create and compare arrays",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"buttonText": "Check It!",
+			"content": "##\n### Write a script that holds an array of values and compares them in the following ways.\n#\n- **In the script to the left, `evenOrOdd.sh`**\n- **Declare two arrays:**\n  - Declare one array called `even` containing all of the even numbers $1-10)$\n  - Declare one array called `odd` containing all of the odd numbers $1-10)$\n\n- **Write a command to test if the 3rd element of the `even` array is greater than the 3rd element of the `odd` array and print the boolean result of the test**\n\n- **Write a command to test if the 4th element of `even` plus the 3rd element of `odd` is greater than 10.**\n    - Use the extended test AND operator `\u0026\u0026` and the `echo` command to display `This is larger than 10` if this test passes.\n\n\n\n\u003c\u003c\u003c\u003c\u003clibrary-assessment\u003e\u003e\u003e\u003e\u003e\n",
+			"files": [
+				"evenOrOdd.sh",
+				".guides/bashtests/activeVariables.txt",
+				".guides/bashtests/arrayTest.sh",
+				".guides/bashtests/create-bash.sh",
+				".guides/bashtests/create-bash.txt",
+				".guides/bashtests/echo_checkfile",
+				".guides/bashtests/echoTest.sh",
+				".guides/bashtests/example_session.txt",
+				".guides/bashtests/function.sh",
+				".guides/bashtests/math_checkfile",
+				".guides/bashtests/numbersTest.sh",
+				".guides/bashtests/sysReportTest.sh",
+				".guides/bashtests/variableTest.sh"
+			],
+			"layout": "3-cell",
+			"opened": [
+				{
+					"content": "evenOrOdd.sh",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "clear",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"pageTitle": "Challenge 2",
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "Scripting Fundamentals"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Bash"
+				},
+				{
+					"name": "Category",
+					"value": "Bash Programming"
+				}
+			]
+		},
+		"name": "Challenge 2.2",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-2977662792",
+	"type": "test",
+	"version": 0
+}

@@ -1,0 +1,63 @@
+{
+	"source": {
+		"name": "Regular Expressions: Regexes with IF statements",
+		"showName": false,
+		"instructions": "### <p>Fill in the blanks to create a script that:</p>\n\n- Defines a variable `loginReports`\n- Checks to see if `loginReports` matches our defined pattern for this file.\n- If it does match, move the file into a folder named `Q4_LoginReports`\n\n<p>Click the button below to submit.</p>\n\n---",
+		"showValues": true,
+		"text": "```\n<<< #!/bin/bash >>>\n\n<<< loginReport >>>=11_27_2020_login_report.csv\n\nif <<< [[ >>><<< $loginReport >>> =~ ^[0-9]{2}_([0-9]{2})_(login)_report.csv$ <<< ]] >>>;\nthen\n  <<< mv >>> \"$loginReport\" Q4_LoginReports\nfi\n```",
+		"distractors": "mkdir\n((\n))",
+		"guidance": "The solution to this problem can be found below.\n\n```\n#!/bin/bash\n\nloginReport=11_27_2020_login_report.csv\n\nif [[ $loginReport =~ ^[0-9]{2}_([0-9]{2})_(login)_report.csv$ ]];\nthen\n  mv \"$loginReport\" Q4_LoginReports\nfi\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"tokens": {
+			"blank": [
+				"#!/bin/bash",
+				"loginReport",
+				"[[",
+				"$loginReport",
+				"]]",
+				"mv"
+			],
+			"text": [
+				"```\n",
+				0,
+				"\n\n",
+				0,
+				"=11_27_2020_login_report.csv\n\nif ",
+				0,
+				0,
+				" =~ ^[0-9]{2}_([0-9]{2})_(login)_report.csv$ ",
+				0,
+				";\nthen\n  ",
+				0,
+				" \"$loginReport\" Q4_LoginReports\nfi\n```"
+			],
+			"regexPositions": []
+		}
+	},
+	"taskId": "fill-in-the-blanks-716803963",
+	"type": "fill-in-the-blanks"
+}

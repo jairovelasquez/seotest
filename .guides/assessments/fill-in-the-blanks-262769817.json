@@ -1,0 +1,52 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"distractors": "Explicit File Paths",
+		"guidance": "**Relative file paths** describe the location of a file or directory in relation to the user's current working directory. **Absolute file paths** represent a location starting from the system's root directory.",
+		"instructions": "Click the button below to submit your response.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "File Paths",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "\u003c\u003c\u003cRelative file paths\u003e\u003e\u003e describe the location of a file or directory in relation to the user's current working directory. \u003c\u003c\u003cAbsolute file paths\u003e\u003e\u003e represent a location starting from the system's root directory.",
+		"tokens": {
+			"blank": [
+				"Relative file paths",
+				"Absolute file paths"
+			],
+			"regexPositions": [],
+			"text": [
+				0,
+				" describe the location of a file or directory in relation to the user's current working directory. ",
+				0,
+				" represent a location starting from the system's root directory."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-262769817",
+	"type": "fill-in-the-blanks"
+}

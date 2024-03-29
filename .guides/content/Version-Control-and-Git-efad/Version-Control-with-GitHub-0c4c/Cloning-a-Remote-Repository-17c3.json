@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#terminal: clear;",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"id": "17c3eb1f-69b5-25dc-6e1c-6608260b894f",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [
+		"gameProject",
+		"projectClone"
+	],
+	"teacherOnly": false,
+	"title": "Cloning a Remote Repository",
+	"type": "page"
+}

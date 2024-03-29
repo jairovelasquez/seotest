@@ -1,0 +1,54 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "36c7a044-078e-4a84-c009-75582c6fb77e",
+				"answer": "`git push —set-upstream origin master`",
+				"correct": true
+			},
+			{
+				"_id": "c51d505d-1fcb-d1d9-bcf2-41740c134256",
+				"answer": "`git push`",
+				"correct": false
+			},
+			{
+				"_id": "2ce596a7-ff5f-c617-6f7a-9303881cf90c",
+				"answer": "`git commit`",
+				"correct": false
+			},
+			{
+				"_id": "6f456245-d6bd-00e9-8c28-9431a258d92a",
+				"answer": "`git commit —set-upstream origin master`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The correct command for pushing code to a repository for the first time is: `git push —set-upstream origin master`.",
+		"incorrectPoints": 0,
+		"instructions": "### \u003cp\u003eWhich of following is the correct command for pushing projects to a repository for the first time?\u003c/p\u003e\n\n**Click the button below to submit.**",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Version Control \u0026 GitHub: Pushing to GitHub",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3570011779",
+	"type": "multiple-choice"
+}

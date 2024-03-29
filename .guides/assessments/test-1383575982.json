@@ -1,0 +1,36 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/braceTest.sh",
+		"guidance": "",
+		"instructions": "Click the button below to submit your response.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Brace Expansion",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-1383575982",
+	"type": "test"
+}

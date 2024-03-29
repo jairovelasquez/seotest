@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#terminal: clear;"
+		}
+	],
+	"id": "780cb10a-9c39-aeee-d428-9ce548eaea61",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Committing",
+	"type": "page"
+}

@@ -1,0 +1,55 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "",
+		"guidance": "#### The correct answers can be found below.\n\n| Term    | Description                              |\n|---------|------------------------------------------|\n| **Local Repository** | Resides on your computer                 |\n| **Remote Repository** | Is updated after a `push` command        |\n| **Local Repository** | Is updated after a `commit` command      |\n| **Local and Remote Repository** | Is a named space for files used with git |\n| **Remote Repository** | Lives on a server elsewhere              |\n\n\nLocal repositories are on your computer (or Codio in our case) and are updated after running the commit command. Remote repositories exist on another server (GitHub in our case) and are updated after running the push command. Both of these repositories are named spaces that contain files used with git.",
+		"instructions": "### \u003cp\u003eFill in the blanks to match the term with the description.\u003c/p\u003e\n\n**Click the button below to submit your response**\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Version Control \u0026 GitHub: Creating a Remote Repository",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "| Term    | Description                              |\n|---------|------------------------------------------|\n| \u003c\u003c\u003cLocal Repository\u003e\u003e\u003e | Resides on your computer                 |\n| \u003c\u003c\u003cRemote Repository\u003e\u003e\u003e | Is updated after a `push` command        |\n| \u003c\u003c\u003cLocal Repository\u003e\u003e\u003e | Is updated after a `commit` command      |\n| \u003c\u003c\u003cLocal and Remote Repository\u003e\u003e\u003e | Is a named space for files used with git |\n| \u003c\u003c\u003cRemote Repository\u003e\u003e\u003e | Lives on a server elsewhere              |\n",
+		"tokens": {
+			"blank": [
+				"Local Repository",
+				"Remote Repository",
+				"Local Repository",
+				"Local and Remote Repository",
+				"Remote Repository"
+			],
+			"regexPositions": [],
+			"text": [
+				"| Term    | Description                              |\n|---------|------------------------------------------|\n| ",
+				0,
+				" | Resides on your computer                 |\n| ",
+				0,
+				" | Is updated after a `push` command        |\n| ",
+				0,
+				" | Is updated after a `commit` command      |\n| ",
+				0,
+				" | Is a named space for files used with git |\n| ",
+				0,
+				" | Lives on a server elsewhere              |\n"
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-3513083930",
+	"type": "fill-in-the-blanks"
+}

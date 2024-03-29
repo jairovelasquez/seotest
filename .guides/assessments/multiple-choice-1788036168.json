@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "1153679d-48e3-97cb-28d4-eff21ff79948",
+				"answer": "`$( $c -lt $d )`",
+				"correct": false
+			},
+			{
+				"_id": "7926d034-cd78-4f3e-01e7-100b3bc86650",
+				"answer": "`[[ $c -lt $d \u0026\u0026 $d -gt 0 ]]`",
+				"correct": true
+			},
+			{
+				"_id": "c7500ac0-c66e-be47-0a24-085f22df3489",
+				"answer": "`$(( $c -lt $d ))`",
+				"correct": false
+			},
+			{
+				"_id": "0046ae28-4568-eb45-1a09-b36320315f6c",
+				"answer": "`[ $c -lt $d ]`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The usage of double brackets indicates that this is an extended test. Furthermore, an extended test allows us to use several evaluations at the same time.",
+		"incorrectPoints": 0,
+		"instructions": "Select your response and click the button below to submit.",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Bash Programming: Extended Test",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1788036168",
+	"type": "multiple-choice"
+}

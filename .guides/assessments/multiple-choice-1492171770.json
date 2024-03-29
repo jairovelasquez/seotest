@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "475b39e0-5a48-6905-713a-80016f59ab00",
+				"answer": "`git config --global user.email`",
+				"correct": true
+			},
+			{
+				"_id": "ba2c3b24-f90f-9281-b344-395c832d54aa",
+				"answer": "`git config -list`",
+				"correct": false
+			},
+			{
+				"_id": "f811c8db-ffdd-a27b-84d2-635d7a566444",
+				"answer": "`git config --global user.name`",
+				"correct": false
+			},
+			{
+				"_id": "d0322f3d-c052-38a9-fb48-e512c0173340",
+				"answer": "`git config --global core.editor`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The correct command for configuring a Git user's email address is `git config --global user.email`.",
+		"incorrectPoints": 0,
+		"instructions": "### Which command sets the email address of the author for all commits made by the current user?\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Introduction to Version Control: Configuring Git",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1492171770",
+	"type": "multiple-choice"
+}

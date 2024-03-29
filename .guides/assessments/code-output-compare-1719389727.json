@@ -1,0 +1,75 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/tester.sh",
+		"guidance": "We can redirect text to the `diskspace.txt` file with the command below.\n```\necho \"Disk Space Usage Report\" \u003e diskspace.txt\n```\n\nWith the following, we can append the results of the `df` command to the same file.\n```\ndf \u003e\u003e diskspace.txt\n```\n\nTo redirect the output of the file to the terminal, we can use the syntax below.\n```\ncat \u003c diskspace.txt\n```\n\nFinally, we can use a here document to write multiple lines to the terminal.\n```\ncat \u003c\u003c EndOfReport\n```",
+		"instructions": "When you’ve completed the tasks, click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "redirection",
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 20,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "Be sure to redirect the correct echo statement to the proper filename.",
+				"input": "Echoed",
+				"output": "0",
+				"showFeedback": true
+			},
+			{
+				"arguments": "",
+				"feedback": "Be sure to append the results of the df command to the correct file.",
+				"input": "Redirected",
+				"output": "0",
+				"showFeedback": true
+			},
+			{
+				"arguments": "",
+				"feedback": "Make sure to redirect the output of the diskspace.txt file to the terminal using cat.",
+				"input": "Redirect Output",
+				"output": "0",
+				"showFeedback": true
+			},
+			{
+				"arguments": "",
+				"feedback": "Have you used the here document?",
+				"input": "Redirect Lines",
+				"output": "0",
+				"showFeedback": true
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "code-output-compare-1719389727",
+	"type": "code-output-compare"
+}

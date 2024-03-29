@@ -1,0 +1,21 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#terminal: clear;",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"id": "7082b4f2-fd1a-086c-f84f-28e4775d610d",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [
+		"gameProject"
+	],
+	"teacherOnly": false,
+	"title": "Pushing to GitHub",
+	"type": "page"
+}

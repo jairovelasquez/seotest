@@ -1,0 +1,37 @@
+{
+	"source": {
+		"name": "Regular Expressions: sed review",
+		"showName": false,
+		"instructions": "### Write a command to substitute all instances of the word `bells` with the word `phones` throughout an entire file named `edgarAllen.txt`\n\n<p>Click the button below to submit.</p>\n\n---\n",
+		"command": "bash .guides/bashtests/sedReviewTest.sh",
+		"timeoutSeconds": 40,
+		"guidance": "We can use `sed` substitution along with the `g` option to make a global substitution in a file. The solution to this problem can be found below.\n\n```bash\nsed -E 's/bells/phones/g' edgarAllen.txt\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 20,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "free-text-auto-4115878062",
+	"type": "free-text-auto"
+}

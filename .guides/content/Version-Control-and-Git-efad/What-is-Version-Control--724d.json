@@ -1,0 +1,18 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"id": "724db40f-7faa-0c18-78a6-7a6fda5fbc8c",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "What is Version Control?",
+	"type": "page",
+	"layout": "1-panel"
+}

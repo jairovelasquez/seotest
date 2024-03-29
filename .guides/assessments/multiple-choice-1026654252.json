@@ -1,0 +1,65 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1026654252",
+	"source": {
+		"name": "Use the shell for basic tasks and navigating file structures",
+		"showName": false,
+		"instructions": "**Which of the following shell commands displays the directory the user is currently working in?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "c1217922-2fea-4e82-dddc-6ecea93bf469",
+				"correct": true,
+				"answer": "`pwd`"
+			},
+			{
+				"_id": "db077430-699b-632e-c65f-859855299eeb",
+				"correct": false,
+				"answer": "`mkdir`"
+			},
+			{
+				"_id": "ee510de4-02c7-52d5-ee41-ce7c1c472bda",
+				"correct": false,
+				"answer": "`cd`"
+			},
+			{
+				"_id": "1f61fb23-ab5f-9ba6-f33f-4fa8b645939f",
+				"correct": false,
+				"answer": "`ls`"
+			}
+		],
+		"guidance": "`pwd` stands for \"Path to Working Directory\"\n\n`mkdir` makes a directory\n\n`ls` lists files and folders\n\n`cd` means change directory",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "shell"
+				},
+				{
+					"name": "Programming Language",
+					"value": "bash"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT print working directory"
+	},
+	"linkedId": "672b5e8d-2290-4c6f-ae9e-9034513e0077",
+	"libraryId": "56de5974-a152-484e-84e5-62ec2a881240",
+	"version": 0
+}

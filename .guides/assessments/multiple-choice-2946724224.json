@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "79e72d1d-93e9-1ed3-44e6-57e317b0a90d",
+				"answer": "`[12-eq12]; echo $?`",
+				"correct": false
+			},
+			{
+				"_id": "c5a0353c-896e-cbde-7775-b6a532faba06",
+				"answer": "`[ 12 -eq 16 ]; echo $?`",
+				"correct": false
+			},
+			{
+				"_id": "308186e7-0369-f58f-476c-ac131192edc5",
+				"answer": "`[ 12 -eq 12 ]; echo $?`",
+				"correct": true
+			},
+			{
+				"_id": "6397f8e1-15c5-ae56-8562-da71aa37dcc6",
+				"answer": "`[ 12 -gt 16 ]; echo $?`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "[12-eq12]; echo $? (No. Spacing is very important when coding in Bash.)\n\n[ 12 -eq 16 ]; echo $? (No. This statement is False (1).)\n\n**[ 12 -eq 12 ]; echo $? (Yes. This statement is True (0).)**\n\n\n[ 12 -gt 16 ]; echo $? (No. This statement is False (1).)",
+		"incorrectPoints": 0,
+		"instructions": "Click the button below to submit.",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Bash Programming: Comparing Values",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2946724224",
+	"type": "multiple-choice"
+}

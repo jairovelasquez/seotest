@@ -1,0 +1,132 @@
+math_checkfile
+math_checkfile
+math_checkfile
+echo $((221+858*24))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo $((221+858*24))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo $(( 221 + 858 * 24 ))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo $(( 343 - 162 / 47 ))
+math_checkfile
+echo $(( 447 * 225 ))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo $((447*225))
+math_checkfile
+echo $((890/161))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo $((447-225))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo $(( 447 - 225 ))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+clear
+export NAME=value
+export IRONMAN=Tony
+echo $IRONMAN
+nano ~/.bashrc
+clear
+export IRONMAN=Tony
+echo $IRONMAN
+set
+set | grep Tony
+export IRONMAN=Tony
+echo $IRONMAN
+set
+export IRONMAN=Tony
+set
+export THISISIT=Tony
+set
+export IRONMAN=Tony
+set
+IRONMAN=Tony
+set
+export IRONMAN=TonY
+set
+env
+bash challenge1.sh
+bash Challenge/challenge1.sh
+clear
+champs.txt
+cat champs.txt
+clear
+bash Challenge/challenge2.sh
+clear
+bash Challenge/challenge2.sh
+python3 .guides/bashtests/redirect-test1.py
+bash .guides/bashtests/tester.sh
+bash .guides/bashtests/tester.sh See Me
+bash .guides/bashtests/tester.sh
+bash .guides/bashtests/tester.sh "See Me"
+bash .guides/bashtests/tester.sh
+echo test
+bash .guides/bashtests/tester.sh
+echo hello
+echo $((447*225))
+echo "Disk Space Usage Report" > diskspace.txt
+df >> diskspace.txt
+cat < diskspace.txt
+cat << EndOfReport
+I have reported the usage of disk space in KBs.
+If you'd like, I can also run the report in megabytes
+It would be as easy as using the df -m command
+EndOfReport
+

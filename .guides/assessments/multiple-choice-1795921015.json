@@ -1,0 +1,54 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "7f7bd9d1-4f21-dbc9-e013-c9fd5c8eb7b2",
+				"answer": "It automatically highlights errors in our code",
+				"correct": true
+			},
+			{
+				"_id": "55fe7ca0-2f54-d33f-8752-0029e12e040e",
+				"answer": "It lets us keep track of changes to our project.",
+				"correct": false
+			},
+			{
+				"_id": "971a9216-6293-d026-99ca-ac7e71f76fa6",
+				"answer": "It allows us to create backups of our work",
+				"correct": false
+			},
+			{
+				"_id": "9f5675c2-a7ca-d030-f379-4e07e99ebd90",
+				"answer": "It helps us keep file names and folder orders organized and consistent.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "Version control does not automatically highlight errors in our code, although it would be very nice!",
+		"incorrectPoints": 0,
+		"instructions": "### Which one of the following is ++NOT++ a benefit of using a version control system?\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Introduction to Version Control: What is Version Control?",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1795921015",
+	"type": "multiple-choice"
+}

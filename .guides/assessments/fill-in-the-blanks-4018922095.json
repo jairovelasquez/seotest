@@ -1,0 +1,49 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "ignore.git\ngitignore.txt\ngit.ignore",
+		"guidance": "The **gitignore** file allows us to define specific files for Git to ignore.",
+		"instructions": "### Fill in the blanks to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear;",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Introduction to Version Control: .gitignore",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "The \u003c\u003c\u003c.gitignore\u003e\u003e\u003e file allows us to define specific files for Git to ignore.",
+		"tokens": {
+			"blank": [
+				".gitignore"
+			],
+			"regexPositions": [],
+			"text": [
+				"The ",
+				0,
+				" file allows us to define specific files for Git to ignore."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-4018922095",
+	"type": "fill-in-the-blanks"
+}

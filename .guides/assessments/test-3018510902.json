@@ -1,0 +1,36 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/echoTest.sh",
+		"guidance": "",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "script .guides/bashtests/example_session.txt; clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "echo",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-3018510902",
+	"type": "test"
+}

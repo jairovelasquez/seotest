@@ -1,0 +1,55 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "789b0b20-ccb4-1582-b757-0f36ab977f8a",
+				"answer": "`on:`",
+				"correct": true
+			},
+			{
+				"_id": "e6f83619-f7d1-2f00-24e7-3181a87d8aa4",
+				"answer": "`build:`",
+				"correct": false
+			},
+			{
+				"_id": "74746e0b-2a6b-5f80-4bba-22f161272f57",
+				"answer": "`runs-on`",
+				"correct": false
+			},
+			{
+				"_id": "49123f79-e6e3-1866-f37a-a3207dab6897",
+				"answer": "`workflow_dispatch:`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The `on:` section of our YAML file defines which events will trigger our actions.",
+		"incorrectPoints": 0,
+		"instructions": "### Which section in our workflows file contains the events that will trigger our workflow?\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Github and Automation: Triggering Actions with Events",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1035993509",
+	"type": "multiple-choice"
+}

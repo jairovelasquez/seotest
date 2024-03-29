@@ -1,0 +1,66 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "d5caf8e5-d56c-7cbe-807a-bf92153952c8",
+				"answer": "`sed '3,10s/^/#/' cleanupScript.txt`",
+				"correct": true
+			},
+			{
+				"_id": "4ea6d8f3-c0f5-0823-71ef-a55a460e73bf",
+				"answer": "`sed '3,10/$/#/p' cleanupScript.txt`",
+				"correct": false
+			},
+			{
+				"_id": "38e2bb77-5eb5-1f18-59bb-14ec9a0f84fd",
+				"answer": "`sed 's/\u003c[^#]*\u003e//g' cleanupScript.txt`",
+				"correct": false
+			},
+			{
+				"_id": "725cead3-a8da-a4a9-ab7e-7cc59a5707b5",
+				"answer": "`sed '3,10/+/#/' cleanupScript.txt`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The `sed` command allows us to define a range of lines with a comma `3,10` and use regular expressions to anchor characters to the beginning of a line with the `^` symbol.\n\nThe solution to this problem can be found below.\n\n\n`sed '3,10s/^/#/' cleanupScript.txt`",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following options correctly inserts a `#` at the beginning of lines $3 - 10$ inside the file `cleanupScript.sh`?\n\n\u003cp\u003eClick the button below to submit\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://alvinalexander.com/programming/printf-format-cheat-sheet/",
+					"panelNumber": 0,
+					"type": "preview"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Regular Expressions: Regexes with sed",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2877722042",
+	"type": "multiple-choice"
+}

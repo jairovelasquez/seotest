@@ -1,0 +1,42 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/sysReportTest.sh",
+		"guidance": "",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://alvinalexander.com/programming/printf-format-cheat-sheet/",
+					"panelNumber": 0,
+					"type": "preview"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Challenge 2.1",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-219702997",
+	"type": "test"
+}

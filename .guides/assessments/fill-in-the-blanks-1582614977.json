@@ -1,0 +1,43 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "programming language\nremote repository platform\nnickname for GitHub",
+		"guidance": "Git is a **version control system** that can be used locally or remotely.",
+		"instructions": "### Fill in the blank to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Introduction to Version Control: Introduction to Git",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "Git is a \u003c\u003c\u003cversion control system\u003e\u003e\u003e that can be used locally or remotely.",
+		"tokens": {
+			"blank": [
+				"version control system"
+			],
+			"regexPositions": [],
+			"text": [
+				"Git is a ",
+				0,
+				" that can be used locally or remotely."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1582614977",
+	"type": "fill-in-the-blanks"
+}

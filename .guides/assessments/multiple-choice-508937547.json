@@ -1,0 +1,65 @@
+{
+	"source": {
+		"name": "Regular Expressions: Pattern Groups and Alternation",
+		"showName": true,
+		"instructions": "### Which of the following options will the expression below match?\n\n`2[0-3][1-5]|[0-9][0-9]?`\n\n**Hint:** There may be more than one correct response.\n\n<p>Click the button below to submit.</p>\n\n---\n",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "13f5561b-aafd-f992-0c96-2ba643011065",
+				"correct": true,
+				"answer": "234"
+			},
+			{
+				"_id": "2150011b-e43d-2fad-87b9-ca593c548985",
+				"correct": true,
+				"answer": "81"
+			},
+			{
+				"_id": "58b9d5d1-785b-fc1d-637b-a4c0b4af04ec",
+				"correct": false,
+				"answer": "379"
+			},
+			{
+				"_id": "7bf42713-2186-fa7f-65a4-485f74dc6579",
+				"correct": false,
+				"answer": "199"
+			},
+			{
+				"_id": "21d890dd-0271-6b8e-4368-32e3c4b2681d",
+				"correct": true,
+				"answer": "7"
+			}
+		],
+		"guidance": "This expression will match numbers $0 - 99$ as well as 3-digit numbers $201-205$, $211-215$, $221-225$, and $231-235$.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-508937547",
+	"type": "multiple-choice"
+}

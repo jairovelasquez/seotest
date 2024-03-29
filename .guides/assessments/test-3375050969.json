@@ -1,0 +1,37 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/create-bash.sh",
+		"guidance": "In the terminal, convert the `newbash` script into an executable.\n- `chmod +x newbash`\n\nThen, run the executable.`\n- `./newbash`",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Creating a bash script",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-3375050969",
+	"type": "test"
+}

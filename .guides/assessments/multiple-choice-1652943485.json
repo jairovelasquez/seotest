@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "9bc0218c-3e97-94be-de83-5eda77a1fc47",
+				"answer": "`sudo apt-get install git`",
+				"correct": true
+			},
+			{
+				"_id": "4d4138cf-6244-0635-9ecc-9d010ca43475",
+				"answer": "`apt-get install git`",
+				"correct": false
+			},
+			{
+				"_id": "60b2bc30-7a8d-89af-96bc-f049df05165a",
+				"answer": "`sudo apt-git install`",
+				"correct": false
+			},
+			{
+				"_id": "194656c2-99db-72ba-8bde-62a40275c478",
+				"answer": "`sudo install git`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "We can use `sudo apt-get` to install Git on our Linux system. The solution to this problem can be found below.\n\n`sudo apt-get install git`",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following is the correct command to use to install Git on Linux with superuser privileges?\n\n\u003cp\u003eClick the button below to submit\u003c/p\u003e\n\n---\n\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Introduction to Version Control: Installing Git",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1652943485",
+	"type": "multiple-choice"
+}

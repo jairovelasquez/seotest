@@ -1,0 +1,49 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "git pull\ngit status",
+		"guidance": "We can use the **git clone** command to pull a copy of a **remote** repository down into our **local** environment.",
+		"instructions": "### Fill in the blank to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Version Control \u0026 GitHub: Cloning a Remote Repository",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "We can use the \u003c\u003c\u003cgit clone\u003e\u003e\u003e command to pull a copy of a \u003c\u003c\u003cremote\u003e\u003e\u003e repository down into our \u003c\u003c\u003clocal\u003e\u003e\u003e environment.",
+		"tokens": {
+			"blank": [
+				"git clone",
+				"remote",
+				"local"
+			],
+			"regexPositions": [],
+			"text": [
+				"We can use the ",
+				0,
+				" command to pull a copy of a ",
+				0,
+				" repository down into our ",
+				0,
+				" environment."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-3423312877",
+	"type": "fill-in-the-blanks"
+}

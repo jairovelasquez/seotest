@@ -1,0 +1,11 @@
+{
+	"id": "0c4c3b51-6e4d-9fd5-1a78-dbfa84e5b7f9",
+	"order": [
+		"Pushing-to-GitHub-7082",
+		"Cloning-a-Remote-Repository-17c3",
+		"Pulling-from-a-Remote-Repository-d52b",
+		"Next-Steps-76b0"
+	],
+	"title": "Version Control with GitHub",
+	"type": "section"
+}

@@ -1,0 +1,49 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/challengeTests/challenge3test.sh",
+		"guidance": "We can use different types of expansion in Bash to refer to and work with multiple values in a compact notation.\n\nHere is a potential solution to this challenge.\n\n```\n#!/bin/bash\n\necho ~+\n\necho {1..100..5}\nmkdir {png,jpg,pdf}_files{1..3}\ntouch {png,jpg,pdf}_files{1..3}/image_{1..5}\n\nrm {png,jpg,pdf}_files{1..3}/image_{1..5}\nrmdir {png,jpg,pdf}_files{1..3}\n\necho \"6 times 3 is equal to: $(( 6 * 3 ))\"\n\nmessage=\"impossible work!\" \necho ${message:2}\n```",
+		"instructions": "Click the button below to submit your response.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"Challenge/challenge3.sh"
+			],
+			"opened": [
+				{
+					"content": "Challenge/challenge3.sh",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				},
+				{
+					"content": "clear",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Challenge 3",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-116820482",
+	"type": "test"
+}

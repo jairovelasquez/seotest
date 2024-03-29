@@ -1,0 +1,60 @@
+{
+	"source": {
+		"name": "ParamExpansion",
+		"showName": false,
+		"instructions": "Click the button below to submit your response.",
+		"command": "bash .guides/bashtests/paramTest.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"guidance": "We can set the appropriate variable using the syntax below.\n\n```\ntitle=\"Avatar: The Last Airbender\"\n```\n\nWe can also use the example below to replace characters with parameter expansion.\n\n```\necho ${title//a/_}\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": true,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "Avatar",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to set the title variable to the correct value."
+			},
+			{
+				"arguments": "",
+				"input": "Replace",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to use echo and parameter expansion to replace all a's"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "code-output-compare-4260807529",
+	"type": "code-output-compare"
+}

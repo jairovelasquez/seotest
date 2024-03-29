@@ -1,0 +1,52 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "print\ndisplay\nwrite",
+		"guidance": "The built-in command **echo** displays text in the terminal ending with a new line character, while the **printf** built-in command also displays the text to the terminal but without the new line character at the end. ",
+		"instructions": "### Fill in the blanks to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Built-In Commands",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "The built-in command \u003c\u003c\u003cecho\u003e\u003e\u003e displays text in the terminal ending with a new line character, while the \u003c\u003c\u003cprintf\u003e\u003e\u003e built-in command also displays the text to the terminal but without the new line character at the end. ",
+		"tokens": {
+			"blank": [
+				"echo",
+				"printf"
+			],
+			"regexPositions": [],
+			"text": [
+				"The built-in command ",
+				0,
+				" displays text in the terminal ending with a new line character, while the ",
+				0,
+				" built-in command also displays the text to the terminal but without the new line character at the end. "
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-3962576327",
+	"type": "fill-in-the-blanks"
+}

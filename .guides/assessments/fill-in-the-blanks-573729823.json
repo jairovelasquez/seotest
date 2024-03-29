@@ -1,0 +1,50 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"distractors": "runs-on:",
+		"guidance": "In our workflows, jobs run **at the same time** by default. We can use the **needs:** section to define that jobs run **consecutively**.",
+		"instructions": "### Fill in the blanks to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Github and Automation: Jobs",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "In our workflows, jobs run \u003c\u003c\u003cat the same time\u003e\u003e\u003e by default. We can use the \u003c\u003c\u003cneeds:\u003e\u003e\u003e section to define that jobs run \u003c\u003c\u003cconsecutively\u003e\u003e\u003e.",
+		"tokens": {
+			"blank": [
+				"at the same time",
+				"needs:",
+				"consecutively"
+			],
+			"regexPositions": [],
+			"text": [
+				"In our workflows, jobs run ",
+				0,
+				" by default. We can use the ",
+				0,
+				" section to define that jobs run ",
+				0,
+				"."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-573729823",
+	"type": "fill-in-the-blanks"
+}

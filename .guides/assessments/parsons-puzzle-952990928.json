@@ -1,0 +1,42 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "Bash allows us to test regular expressions in if statements using double square brackets `[[ ]]`. The solution to this problem can be found below.\n\n```\nloginReport=11_27_2020_login_report.csv\nif [[ $loginReport =~ ^[0-9]{2}_([0-9]{2})_(login)_report.csv$ ]];\nthen\n  mv \"$loginReport\" Q4_LoginReports\nfi\n```",
+		"initial": "#!/bin/bash\nloginReport=11_27_2020_login_report.csv\nif [[$loginReport =~ //^//[0-9]//{2//}_([0-9]{2})_(login)_report.csv$]];\nthen\n  mv \u0026quot;$loginReport\u0026quot; Q4_LoginReports\nfi\nmkdir \u0026quot;$loginReport\u0026quot; Q4_LoginReports#distractor\nif (($loginReport =~ ^[0-9]{2}_([0-9]{2})_(login)_report.csv$));#distractor",
+		"instructions": "### Arrange the blocks to create a script that:\n\n- Defines a variable `loginReports`\n- Checks to see if `loginReports` matches our defined pattern for this file.\n- If it does match, move the file into a folder named `Q4_LoginReports\n\n**Note:** Indention matters in this exercise. Please indent correctly.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://alvinalexander.com/programming/printf-format-cheat-sheet/",
+					"panelNumber": 0,
+					"type": "preview"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Regular Expressions: Regexes with IF statements",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": true
+	},
+	"taskId": "parsons-puzzle-952990928",
+	"type": "parsons-puzzle"
+}

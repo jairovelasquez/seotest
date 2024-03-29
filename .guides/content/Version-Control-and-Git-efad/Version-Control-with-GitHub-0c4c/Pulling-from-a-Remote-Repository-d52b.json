@@ -1,0 +1,23 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#terminal: clear;",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"id": "d52b6e3a-b4f2-743a-fb6d-7a5d04be377e",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [
+		"gameProject",
+		"projectClone",
+		"pull_request"
+	],
+	"teacherOnly": false,
+	"title": "Pulling from a Remote Repository",
+	"type": "page"
+}

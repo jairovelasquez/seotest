@@ -1,0 +1,43 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "remote repository system\nversion control system\nautomation system",
+		"guidance": "Git can be used to manage our system's settings when it is combined with a **configuration management system**",
+		"instructions": "### Fill in the blank to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Version Control \u0026 GitHub: Configuration Management Systems",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "Git can be used to manage our system's settings when it is combined with a \u003c\u003c\u003cconfiguration management system\u003e\u003e\u003e.",
+		"tokens": {
+			"blank": [
+				"configuration management system"
+			],
+			"regexPositions": [],
+			"text": [
+				"Git can be used to manage our system's settings when it is combined with a ",
+				0,
+				"."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-831311875",
+	"type": "fill-in-the-blanks"
+}

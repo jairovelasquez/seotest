@@ -1,0 +1,48 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"distractors": "Git\nprogram\nuser\nprompt",
+		"guidance": "Secure SHell or SSH is a protocol used to connect one computer to another, usually to access the command-line interface (CLI) on a remote system.",
+		"instructions": "**Fill in the correct vocabulary words**",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Define SSH",
+		"points": 3,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "\u003c\u003c\u003cSecure SHell\u003e\u003e\u003e is a protocol used to connect one \u003c\u003c\u003ccomputer\u003e\u003e\u003e to another, usually to access the \u003c\u003c\u003ccommand-line interface\u003e\u003e\u003e on a remote system.",
+		"tokens": {
+			"blank": [
+				"Secure SHell",
+				"computer",
+				"command-line interface"
+			],
+			"regexPositions": [],
+			"text": [
+				0,
+				" is a protocol used to connect one ",
+				0,
+				" to another, usually to access the ",
+				0,
+				" on a remote system."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-993071013",
+	"type": "fill-in-the-blanks"
+}

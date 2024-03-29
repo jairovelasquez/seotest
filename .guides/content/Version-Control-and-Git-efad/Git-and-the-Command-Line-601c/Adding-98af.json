@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#terminal: clear;"
+		}
+	],
+	"id": "98af5c81-a9c6-8a36-ffb7-4775bb288bac",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Adding",
+	"type": "page"
+}

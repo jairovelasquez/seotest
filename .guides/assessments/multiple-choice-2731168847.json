@@ -1,0 +1,66 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "8822bc1c-8ce2-80e2-7296-f94ff36fec07",
+				"answer": "`grep -E -o \"([A-Za-z ]*)\" surveyResponse.txt`",
+				"correct": true
+			},
+			{
+				"_id": "5dff3f33-6275-c172-9023-33c6b24a41e8",
+				"answer": "`grep -Eo \"([A-Za-z ]*)\" surveyResponse.txt`",
+				"correct": false
+			},
+			{
+				"_id": "52339e84-1b35-6f96-c64a-b0a49c6cf52b",
+				"answer": "`grep -E -w \"([A-Za-z ]*)\" surveyResponse.txt`",
+				"correct": false
+			},
+			{
+				"_id": "48d4ce80-3c2c-d525-224f-517f892f7e02",
+				"answer": "`grep -E -i \"([A-Za-z ]*)\" surveyResponse.txt`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The `-o` option allows us to return only the portion of a line that matches our expression. The solution to this problem can be found below.\n\n`grep -E -o \"([A-Za-z ]*)\" surveyResponse.txt`",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following options correctly returns only the matching portion of the specified pattern?\n\n\u003cp\u003eClick the button below to submit\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://alvinalexander.com/programming/printf-format-cheat-sheet/",
+					"panelNumber": 0,
+					"type": "preview"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Regular Expressions: Regexes with grep",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 0,
+			"type": "Attempts"
+		},
+		"showName": true
+	},
+	"taskId": "multiple-choice-2731168847",
+	"type": "multiple-choice"
+}

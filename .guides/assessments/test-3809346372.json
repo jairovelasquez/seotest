@@ -1,0 +1,41 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/trialbash.sh",
+		"guidance": "",
+		"instructions": "Click the \"Check It!\" button when you are ready to submit your answer.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear;",
+					"panelNumber": 0,
+					"type": "terminal"
+				},
+				{
+					"content": ".guides/bashtests/init.sh ; clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Use the shell for basic tasks and navigating file structures",
+		"points": 10,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-3809346372",
+	"type": "test"
+}

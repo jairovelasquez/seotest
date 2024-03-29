@@ -1,0 +1,54 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "3f094923-f62f-eb15-7176-4150dfd8e263",
+				"answer": "SSH",
+				"correct": true
+			},
+			{
+				"_id": "146d161c-a774-3bc5-ba7a-ee986a8c3c64",
+				"answer": "HTTPS",
+				"correct": false
+			},
+			{
+				"_id": "ac00cd8f-de23-890d-f2b0-3a26acd66a58",
+				"answer": "TCP/IP",
+				"correct": false
+			},
+			{
+				"_id": "184ac6ab-0978-9549-47c3-638b9ab3a828",
+				"answer": "SSL",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "#### We'll be using an SSH connection to connect our Codio to GitHub. This requires us to upload a public key to connect properly.",
+		"incorrectPoints": 0,
+		"instructions": "### What type of connection are we using to connect to GitHub?\n\n**Click the button below to submit your response.**\n\n---",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Version Control \u0026 GitHub: Connecting Codio to GitHub",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2758488200",
+	"type": "multiple-choice"
+}

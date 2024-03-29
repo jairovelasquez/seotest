@@ -1,0 +1,66 @@
+#1662556812
+clear;
+#1662556828
+clear;
+#1662556835
+clear;
+#1662556840
+clear;
+#1662556844
+clear;
+#1662557299
+clear;
+#1662557303
+clear;
+#1679513358
+clear
+#1679513381
+clear
+#1679513403
+clear
+#1679513457
+git --version
+#1679513469
+sudo apt-get install git
+#1679513491
+sudo apt-get update
+#1679513499
+sudo apt-get install git
+#1679513752
+clear;
+#1679513761
+cd /home/codio/workspace/bashScripts
+#1679515322
+clear
+#1679515329
+pwd
+#1679515330
+ls -a
+#1679515346
+mkdir bashScripts
+#1679515346
+cd bashScripts
+#1679515351
+touch userInfo.sh
+#1679515355
+nano userInfo.sh
+#1679515386
+git init
+#1679515393
+ls -a
+#1679515405
+cd .git
+#1679515408
+ls -a
+#1679515414
+clear;
+#1679515422
+cd /home/codio/workspace/bashScripts
+#1679515426
+nano userInfo.sh
+#1679515445
+git status
+#1679516348
+clear;
+#1679523064
+clear;

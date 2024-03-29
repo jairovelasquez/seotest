@@ -1,0 +1,11 @@
+{
+
+  "commands": {
+        "Open Terminal": "clear"
+  },
+
+  "preview": {
+        "Virtual Desktop": "https://{{domain3050}}/"
+  },
+  "debugger": [{"type":"PYTHON3","command":"{{filename}}","before":"","uuid":"7029cd08-a526-7d27-1a5e-ed8aab30a3c3","name":"Debugger"}]
+}

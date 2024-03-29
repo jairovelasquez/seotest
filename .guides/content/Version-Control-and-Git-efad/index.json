@@ -1,0 +1,15 @@
+{
+	"id": "efad5421-79bb-f464-2a83-ad7e3c16fdf9",
+	"order": [
+		"What-is-Version-Control--724d",
+		"Introduction-to-Git-c84b",
+		"Git-Workflow-7a28",
+		"Configuring-Git-c3c1",
+		"Git-and-the-Command-Line-601c",
+		"Branching-50d0",
+		"GitHub-Basics-3ca3",
+		"Version-Control-with-GitHub-0c4c"
+	],
+	"title": "Version Control and Git",
+	"type": "section"
+}

@@ -1,0 +1,55 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "output redirection\ninput redirection\nfile\nfile",
+		"guidance": "We should use **piping** to send the output of one command as input to another command.",
+		"instructions": "Click the button below to submit your response.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Piping",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "We should use \u003c\u003c\u003cpiping\u003e\u003e\u003e to send the output of one \u003c\u003c\u003ccommand\u003e\u003e\u003e as input to another \u003c\u003c\u003ccommand\u003e\u003e\u003e.",
+		"tokens": {
+			"blank": [
+				"piping",
+				"command",
+				"command"
+			],
+			"regexPositions": [],
+			"text": [
+				"We should use ",
+				0,
+				" to send the output of one ",
+				0,
+				" as input to another ",
+				0,
+				"."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-886851155",
+	"type": "fill-in-the-blanks"
+}

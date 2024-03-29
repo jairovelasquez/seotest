@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "6a8d4d1b-58e5-e994-55d0-79fb6aa5d4ca",
+				"answer": "instruct Bash to calculate or generate a value that may or may not be known before the script begins.",
+				"correct": true
+			},
+			{
+				"_id": "c2211949-a98c-e58e-ccb6-7e50fc6d1cf3",
+				"answer": "display information to the terminal.",
+				"correct": false
+			},
+			{
+				"_id": "03b9a931-a242-0afb-297b-db078f2c265c",
+				"answer": "increase the size of our program.",
+				"correct": false
+			},
+			{
+				"_id": "8ffa7f72-1cc6-67f2-4d29-ae5163935261",
+				"answer": "overwrite the contents of a file.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "We can use expansions and substitutions to instruct Bash to calculate or generate a value that may or may not be known before the script begins.\n",
+		"incorrectPoints": 0,
+		"instructions": "Select your response and click the button below to submit.",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Tilde Expansion",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2412036325",
+	"type": "multiple-choice"
+}

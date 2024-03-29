@@ -1,0 +1,60 @@
+{
+	"source": {
+		"name": "Regular Expressions: Regexes with awk",
+		"showName": false,
+		"instructions": "### Which of the following expressions correctly prints: \n- The $1st$ and $3rd$ columns of \n- All lines inside the file `fruit.txt` \n- Where the information in the $1st$ column ends with `y`?\n\n<p>Click the button below to submit.</p>\n\n---\n",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "4479a4dc-7f28-7992-5016-71248ffe3a3a",
+				"correct": true,
+				"answer": "`awk '$1 ~ /y$/ {print $1, $3}' fruit.txt`"
+			},
+			{
+				"_id": "738779c7-2bdf-9d85-d932-eddb011f0de2",
+				"correct": false,
+				"answer": "`awk '$0 ~ /y/ {print $1, $3}' fruit.txt`"
+			},
+			{
+				"_id": "c5eecfeb-1095-7216-bc3a-c837a12b08eb",
+				"correct": false,
+				"answer": "`awk '$1 ~ /^y*$/ {print $1, $3}' fruit.txt`"
+			},
+			{
+				"_id": "238a475d-1504-a688-fe4f-8a0c8eeb6363",
+				"correct": false,
+				"answer": "`awk '$0 ~ /y$/ {print $0, $2}' fruit.txt`"
+			}
+		],
+		"guidance": "We can use `awk` along with the dollar sign `$` to anchor a pattern match to the end of a line. We can also refer to the $1st$ and $3rd$ columns using their appropriate variables, `$1` and `$3`.\n\nThe solution to this problem can be found below.\n\n`awk '$1 ~ /y$/ {print $1, $3}' fruit.txt`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-333999581",
+	"type": "multiple-choice"
+}

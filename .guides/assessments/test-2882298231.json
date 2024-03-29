@@ -1,0 +1,51 @@
+{
+	"source": {
+		"name": "Challenge 1.4",
+		"showName": false,
+		"instructions": "Click the button below to submit.",
+		"command": "bash .guides/bashtests/challengeTests/challenge4test.sh",
+		"timeoutSeconds": 40,
+		"guidance": "The following solutions below can be used for this challenge.\n\n```\n#!/bin/bash\n\necho \"The current network host name is $(hostname)\"\n\nls c*.txt\n\nls [:digit:]*\n\nls file2?.txt\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"Challenge/challenge4.sh"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "Challenge/challenge4.sh"
+				},
+				{
+					"type": "terminal",
+					"content": ""
+				},
+				{
+					"type": "terminal",
+					"content": "clear"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "test-2882298231",
+	"type": "test"
+}

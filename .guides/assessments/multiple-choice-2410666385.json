@@ -1,0 +1,54 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "aa44cfdb-fc2a-d6ea-5769-820c06cac949",
+				"answer": "A Web-Based Repository Hosting Service",
+				"correct": true
+			},
+			{
+				"_id": "16cb29dd-37d1-81f8-f8d4-55bdfaa90bfa",
+				"answer": "A Centralized Version Control System",
+				"correct": false
+			},
+			{
+				"_id": "c4f4c3a3-2572-f78b-8f4d-32ba220d6824",
+				"answer": "An Integrated Development Environment",
+				"correct": false
+			},
+			{
+				"_id": "5b42b40f-71b7-5acc-c8b1-d8a098507bce",
+				"answer": "An Error Correction System.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "GitHub is **a web-based repository hosting service** that allows us to keep remote repositories in a centralized, online location.",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following statements best describes GitHub?\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Version Control \u0026 GitHub: Introduction to GitHub",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2410666385",
+	"type": "multiple-choice"
+}

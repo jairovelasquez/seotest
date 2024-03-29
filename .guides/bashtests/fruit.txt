@@ -1,0 +1,13 @@
+Fruit	Brix	Specific Gravity	TA	Dominant Acid
+Apple	4-16 (12)	1.014-1.067 (1.049)	1.5-12.4 (6.7)	Malic
+Apricot	4-11 (9)	1.014-1.043 (1.035)	9.2-23.0 (17)	Malic
+Avocado	1	1.003	2	
+Banana	17	1.069	3	Malic/Citric
+Blackberry	5-10 (6.5)	1.021-1.039 (1.026)	9.9-15.9 (12.9)	Malic
+Ballaces				Malic
+Blueberry	5-12 (7)	1.020-1.051 (1.027)	2-15 (14)	Citric
+Boysenberry				Malic
+Cantaloupe	7	1.026	2	
+Cherry	9-19 (15)	1.047-1.080 (1.064)	5.3-20.8, 12	Malic
+Cranberry	3-5 (4)	1.012-1.018 (1.016)	5-30 (36)	Citric/Malic
+Black Currant	4-19 (10)	1.015-1.079 (1.041)	29-48 (34)	

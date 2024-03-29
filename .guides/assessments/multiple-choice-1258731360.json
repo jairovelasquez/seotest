@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "2ccb2cab-a90f-36b8-48fe-1f7be9bf618e",
+				"answer": "`git commit -m`",
+				"correct": true
+			},
+			{
+				"_id": "f6225f3b-a945-8e1f-c41a-42eb270fc9c7",
+				"answer": "`git commit`",
+				"correct": false
+			},
+			{
+				"_id": "26c4a523-bdf1-73d0-dfff-a5caca8c6af5",
+				"answer": "`git status`",
+				"correct": false
+			},
+			{
+				"_id": "bf9c056f-a001-b932-c37a-c7c611da9622",
+				"answer": "`git add .`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "We can use the `git commit -m` command to commit our staged changes to our repository. If we don't include the `-m` flag and a message, the terminal will open a text editor for us to input a message for the commit.",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following commands can we use to commit our project to a repository with a message?\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear;",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Introduction to Version Control: Committing",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1258731360",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,7 @@
+brace_checkfile
+title="Avatar: The Last Airbender"
+brace_checkfile
+echo ${title//a/_}
+brace_checkfile
+brace_checkfile
+brace_checkfile

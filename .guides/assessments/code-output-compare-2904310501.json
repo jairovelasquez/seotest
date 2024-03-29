@@ -1,0 +1,60 @@
+{
+	"source": {
+		"name": "Brace Expansion",
+		"showName": false,
+		"instructions": "Click the button below to submit your response.",
+		"command": "bash .guides/bashtests/braceTest.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"guidance": "We can create file with brace expansion using the touch command.\n\n```\ntouch file_{1..5}.{gif,png,jpg}\n```\n\nSimilarly, we can use the `rm` command to remove files with brace expansion.\n```\nrm file_{1..5}.{gif,png,jpg}\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": true,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "Touch Brace",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to use touch and brace expansion to create files"
+			},
+			{
+				"arguments": "",
+				"input": "Remove Brace",
+				"output": "0",
+				"showFeedback": true,
+				"feedback": "Be sure to use rm and brace expansion to remove all files"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "code-output-compare-2904310501",
+	"type": "code-output-compare"
+}

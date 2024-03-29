@@ -1,0 +1,44 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/variableTest.sh",
+		"guidance": "",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [
+				"variable.sh"
+			],
+			"opened": [
+				{
+					"content": "variable.sh",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Variables",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-3193219397",
+	"type": "test"
+}

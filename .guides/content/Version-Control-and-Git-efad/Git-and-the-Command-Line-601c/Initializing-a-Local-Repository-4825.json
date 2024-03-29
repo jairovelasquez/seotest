@@ -1,0 +1,25 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "#terminal: clear",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"id": "4825ebc0-ab55-de97-1a9b-e1844f9c07c6",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [
+		"gameProject"
+	],
+	"teacherOnly": false,
+	"title": "Initializing a Local Repository",
+	"type": "page"
+}

@@ -1,0 +1,58 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"distractors": "asterisks\ncommand substitution\n",
+		"guidance": "We use **regular expressions** to match text. This is similar to, but different from **file globbing**, which is used specifically to match to a file name.",
+		"instructions": "Click the button below to submit your response.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				},
+				{
+					"content": "clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "File Globbing",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "We use \u003c\u003c\u003cregular expressions\u003e\u003e\u003e to match text. This is similar to, but different from \u003c\u003c\u003cfile globbing\u003e\u003e\u003e, which is used specifically to match to a file name.",
+		"tokens": {
+			"blank": [
+				"regular expressions",
+				"file globbing"
+			],
+			"regexPositions": [],
+			"text": [
+				"We use ",
+				0,
+				" to match text. This is similar to, but different from ",
+				0,
+				", which is used specifically to match to a file name."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-934112666",
+	"type": "fill-in-the-blanks"
+}

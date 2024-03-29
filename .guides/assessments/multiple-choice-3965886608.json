@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "84c47c4b-15da-228f-d7e0-c9eade14d4e3",
+				"answer": "executing a specific command and returning the result.",
+				"correct": true
+			},
+			{
+				"_id": "3472847a-2838-41ff-ffa3-aa1cfa18d546",
+				"answer": "returning the outcome of mathematical operations.",
+				"correct": false
+			},
+			{
+				"_id": "98f7ec4a-90ee-da89-f784-ea7013c0cbaa",
+				"answer": "creating a pattern of numbers or letters.",
+				"correct": false
+			},
+			{
+				"_id": "2e3f2ed3-7c16-c1a1-b8d4-bfbf552dfbad",
+				"answer": "returning a portion or all of a previously stored value.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "Command substitution can best be described as executing a specific command and returning the result.",
+		"incorrectPoints": 0,
+		"instructions": "Select your response and click the button below to submit.",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Command Substitution",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3965886608",
+	"type": "multiple-choice"
+}

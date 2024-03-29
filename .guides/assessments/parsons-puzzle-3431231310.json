@@ -1,0 +1,30 @@
+{
+	"source": {
+		"name": "Do basic git commands_1",
+		"showName": false,
+		"instructions": "Drag the commands into the designated area to:\n\n1. Add all of the revised files to the staging area\n2. Check the status of the files in the staging area\n3. Move the staged files to the repository, adding to the version history\n4. Save the revisions to the remote repository.",
+		"initial": "git add .\ngit status\ngit commit\ngit push\ngit check  #distractor\ngit save  #distractor\ngit checkout  #distractor",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"grader": "1",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "parsons-puzzle-3431231310",
+	"type": "parsons-puzzle"
+}

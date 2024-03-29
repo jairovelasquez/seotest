@@ -1,0 +1,54 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "71f38da7-47ab-9afe-1e04-854ce093c38b",
+				"answer": "`git fetch`",
+				"correct": true
+			},
+			{
+				"_id": "af6cc2aa-259b-12cc-7313-944677eed2d4",
+				"answer": "`git merge`",
+				"correct": true
+			},
+			{
+				"_id": "686ebcf0-0cf5-5075-8159-be4deb014881",
+				"answer": "`git push`",
+				"correct": false
+			},
+			{
+				"_id": "8d375014-9c24-0db9-4bcb-005ff77f0f62",
+				"answer": "`git clone`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The `git pull` command is a combination of `git fetch` and `git merge`.",
+		"incorrectPoints": 0,
+		"instructions": "### Which of the following commands are performed when we perform a `git pull`?\n\n**Hint:** There may be more than one response.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n\n",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "Version Control \u0026 GitHub: Pulling from a Remote Repository",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3020851719",
+	"type": "multiple-choice"
+}

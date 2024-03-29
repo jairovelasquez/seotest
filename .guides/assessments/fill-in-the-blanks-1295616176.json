@@ -1,0 +1,56 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"distractors": "Parenthesis\nDollar Signs",
+		"guidance": "",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "echo 2",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "| Term                |Description                                                                |\n|---------------------|---------------------------------------------------------------------------|\n| \u003c\u003c\u003cSingle Quotes\u003e\u003e\u003e | Sometimes called \"strong quotations\", these suggest that the content inside the quotes should be taken literally, exactly as it is, so Bash won't try to interpret it. |\n| \u003c\u003c\u003cNo Quotes\u003e\u003e\u003e     | These cause Bash to interpret each section of the command as it is read.  |\n| \u003c\u003c\u003cDouble Quotes\u003e\u003e\u003e | These are used for mixing literal text with other values, so Bash still tries to understand substitutions, expansions, evaluations, variables.                      |\n\n",
+		"tokens": {
+			"blank": [
+				"Single Quotes",
+				"No Quotes",
+				"Double Quotes"
+			],
+			"regexPositions": [],
+			"text": [
+				"| Term                |Description                                                                |\n|---------------------|---------------------------------------------------------------------------|\n| ",
+				0,
+				" | Sometimes called \"strong quotations\", these suggest that the content inside the quotes should be taken literally, exactly as it is, so Bash won't try to interpret it. |\n| ",
+				0,
+				"     | These cause Bash to interpret each section of the command as it is read.  |\n| ",
+				0,
+				" | These are used for mixing literal text with other values, so Bash still tries to understand substitutions, expansions, evaluations, variables.                      |\n\n"
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1295616176",
+	"type": "fill-in-the-blanks"
+}

@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "74954aeb-fa5f-f756-0bc6-48acc2055a18",
+				"answer": "static arrays and dynamic arrays.",
+				"correct": false
+			},
+			{
+				"_id": "f9e2e5da-d25e-da6a-587b-f475f37a514f",
+				"answer": "indexed arrays and associative arrays.",
+				"correct": true
+			},
+			{
+				"_id": "5df07a0c-f826-83dc-39ac-ac906b537ed0",
+				"answer": "linear arrays and circular arrays.",
+				"correct": false
+			},
+			{
+				"_id": "5e893126-67e0-a5d6-8692-b3f7bd805707",
+				"answer": "scripted and non-scripted tables.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "Indexed arrays allow us to access array elements using their index number, whereas associative arrays use an alphanumeric key to access array elements.",
+		"incorrectPoints": 0,
+		"instructions": "Select your response and click the button below to submit.",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Bash Programming: Arrays",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2414042882",
+	"type": "multiple-choice"
+}

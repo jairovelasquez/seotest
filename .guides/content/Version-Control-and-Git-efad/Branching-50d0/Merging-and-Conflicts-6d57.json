@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#terminal: clear;"
+		}
+	],
+	"id": "6d57661f-e577-5de2-8bc1-59cf80e4b784",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Merging and Conflicts",
+	"type": "page"
+}

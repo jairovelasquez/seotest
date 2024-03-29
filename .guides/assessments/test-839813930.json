@@ -1,0 +1,57 @@
+{
+	"type": "test",
+	"taskId": "test-839813930",
+	"source": {
+		"name": "Use the shell for basic tasks and navigating file structures",
+		"showName": false,
+		"instructions": "Click the \"Check It!\" button when you are ready to submit your answer.",
+		"command": "bash .guides/bashtests/trialbash.sh",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "shell"
+				},
+				{
+					"name": "Programming Language",
+					"value": "bash"
+				}
+			],
+			"files": [
+				".guides/bashtests/function.sh",
+				".guides/bashtests/trialbash.sh"
+			],
+			"layout": "2-panels-tree",
+			"pageTitle": "Check your Understanding",
+			"buttonText": "Check It!",
+			"content": "##\n\nMake sure you are in the `~/workspace` directory and:\n\n1. Create a folder called `trial-run`\n\n1. Navigate into your `trial-run` folder\n\n1. Create a file called `testing.py`\n\n  \n<<<<<library-assessment>>>>>\n\n\n",
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear;"
+				},
+				{
+					"type": "terminal",
+					"content": ".guides/bashtests/init.sh ; clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT create files and folders from CLI"
+	},
+	"linkedId": "090d82fe-4cb3-44a7-858f-850abd0aa1f1",
+	"libraryId": "56de5974-a152-484e-84e5-62ec2a881240",
+	"version": 2
+}

@@ -1,0 +1,49 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "git add -A\ngit add -u",
+		"guidance": "We can use the `git add .` command to move all of our new and changed files to the staging area.",
+		"instructions": "### Fill in the blank to complete the statement.\n\n\u003cp\u003eClick the button below to submit.\u003c/p\u003e\n\n---\n",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear;",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Introduction to Version Control: Adding",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "We can use the \u003c\u003c\u003c git add . \u003e\u003e\u003e command to move all of our new and changed files to the staging area.",
+		"tokens": {
+			"blank": [
+				"git add ."
+			],
+			"regexPositions": [],
+			"text": [
+				"We can use the ",
+				0,
+				" command to move all of our new and changed files to the staging area."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-643329843",
+	"type": "fill-in-the-blanks"
+}

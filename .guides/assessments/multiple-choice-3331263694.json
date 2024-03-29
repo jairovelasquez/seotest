@@ -1,0 +1,65 @@
+{
+	"source": {
+		"name": "Wild Card Characters",
+		"showName": false,
+		"instructions": "Click the button below to submit your response.",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "f4bed126-47a9-a9a3-7e89-9da7389f31c9",
+				"correct": true,
+				"answer": "image3.png"
+			},
+			{
+				"_id": "294bc496-250f-f637-0730-5095f82bf129",
+				"correct": true,
+				"answer": "itinerary.pdf"
+			},
+			{
+				"_id": "52ddc9d6-b043-1252-9f5c-d2fc07ac1fb7",
+				"correct": false,
+				"answer": "ideas.txt"
+			},
+			{
+				"_id": "a07091f0-ee9b-700a-4e4c-ec5ee7c4a16c",
+				"correct": false,
+				"answer": "images.jpg"
+			},
+			{
+				"_id": "7e2033d0-4215-161c-e1e5-88ec6d3b0b7e",
+				"correct": true,
+				"answer": "ismirPresentation.ppt"
+			}
+		],
+		"guidance": "The `*` wildcard character will match any number of any type of character. Our pattern will match any text:\n- Starting with `i`\n- Followed by any number of any type of character\n- Followed by `.p`\n- Followed by any number of any type of character\n\nThe following options will match our wildcard pattern.\n\n- `image3.png`\n- `itinerary.pdf`\n- `ismirPresentation.ppt`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-3331263694",
+	"type": "multiple-choice"
+}

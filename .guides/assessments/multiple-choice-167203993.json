@@ -1,0 +1,60 @@
+{
+	"source": {
+		"name": "Regular Expressions: Matching Single Characters and Words",
+		"showName": true,
+		"instructions": "### Consider the lines of information inside a file called `flowers.txt`.\n\n```tex -hide-clipboard\nLoosestrife\nAster\nRose of Sharon\nHydrangea\nLantana\nMarigold\n```\n\n### What would be the result of the following command?\n\n```bash-hide-clipboard\ngrep -E [bcdf] flowers.txt\n```\n\n<p>Click the button below to submit.</p>\n\n---\n\n",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "7399f575-e345-81ce-f200-b0c67c84fc74",
+				"correct": true,
+				"answer": "Loosestrife\nRose of Sharon\nHydrangea\nMarigold"
+			},
+			{
+				"_id": "21cd386d-4ff2-a3cd-1333-7f100015d611",
+				"correct": false,
+				"answer": "Hydrangea\nLantana\nMarigold"
+			},
+			{
+				"_id": "91fd9969-3f08-0e0b-06ae-5018e672e0af",
+				"correct": false,
+				"answer": "Aster\nLantana"
+			},
+			{
+				"_id": "c89125fd-bc10-71dc-729b-abbefa4d55a7",
+				"correct": false,
+				"answer": "Loosestrife\nHydrangea\nLantana"
+			}
+		],
+		"guidance": "The code above will return each line containing at least one occurrence of any letter within the defined list, `bcdf`. The command will return the following lines.\n\n```bash\nLoosestrife\nRose of Sharon\nHydrangea\nMarigold\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-167203993",
+	"type": "multiple-choice"
+}

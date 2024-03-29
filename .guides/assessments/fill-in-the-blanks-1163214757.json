@@ -1,0 +1,53 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"distractors": "static arrays\nscripted arrays\ndynamic arrays",
+		"guidance": "In Bash, **associative arrays** elements are identified with key,value pairs, while **indexed arrays** identify elements by their positional index number.\n\nIndexed arrays allow us to access array elements using their index number, whereas associative arrays use an alphanumeric key to access array elements.\n\n",
+		"instructions": "Click the button below to submit.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 2,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Arrays",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "In Bash, \u003c\u003c\u003cassociative arrays\u003e\u003e\u003e elements are identified with key,value pairs, while \u003c\u003c\u003cindexed arrays\u003e\u003e\u003e identify elements by their positional index number.",
+		"tokens": {
+			"blank": [
+				"associative arrays",
+				"indexed arrays"
+			],
+			"regexPositions": [],
+			"text": [
+				"In Bash, ",
+				0,
+				" elements are identified with key,value pairs, while ",
+				0,
+				" identify elements by their positional index number."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1163214757",
+	"type": "fill-in-the-blanks"
+}

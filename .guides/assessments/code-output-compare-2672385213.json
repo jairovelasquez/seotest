@@ -1,0 +1,68 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/bashtests/mathTest.sh",
+		"guidance": "",
+		"instructions": "Click the button below to submit your response.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "clear",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "MathExpansion",
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 20,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "Make sure to perform the first calculation. Are your digits in the proper order?",
+				"input": "one",
+				"output": "0",
+				"showFeedback": true
+			},
+			{
+				"arguments": "",
+				"feedback": "Make sure to perform the second calculation. Are your digits in the proper order?",
+				"input": "two",
+				"output": "0",
+				"showFeedback": true
+			},
+			{
+				"arguments": "",
+				"feedback": "Make sure to perform the third calculation. Are your digits in the proper order?",
+				"input": "three",
+				"output": "0",
+				"showFeedback": true
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "code-output-compare-2672385213",
+	"type": "code-output-compare"
+}

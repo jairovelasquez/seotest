@@ -1,0 +1,7 @@
+math_checkfile
+math_checkfile
+math_checkfile
+echo $(( 890 / 161 ))
+math_checkfile
+math_checkfile
+math_checkfile

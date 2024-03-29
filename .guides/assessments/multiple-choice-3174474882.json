@@ -1,0 +1,60 @@
+{
+	"source": {
+		"name": "Regular Expressions: BASH_REMATCH",
+		"showName": false,
+		"instructions": "### What will be stored inside `BASH_REMATCH[3]` for the following expression?\n\n```bash-hide-clipboard\n[[ \"Floccinaucinihilipilification\" =~ (c{2})*(c.n.h.)lip(*) ]]\n```\n\n<p>Click the button below to submit.</p>\n\n---\n\n",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "f010a11b-416d-a1f2-1035-826d8140825e",
+				"correct": true,
+				"answer": "`ilification`"
+			},
+			{
+				"_id": "7415d268-0202-e904-d2e2-d1a545d1ed92",
+				"correct": false,
+				"answer": "`cc`"
+			},
+			{
+				"_id": "6bd6a424-f213-2126-8103-3afe9f743032",
+				"correct": false,
+				"answer": "`ccinaucinihilipilification`"
+			},
+			{
+				"_id": "f392578e-65df-abc1-4b60-ebe0fc3aad4f",
+				"correct": false,
+				"answer": "`cinihi`"
+			}
+		],
+		"guidance": "`BASH_REMATCH[3]` will return the 3rd group wrapped in parenthesis `()` that matches the pattern.\n\nThe solution to this problem can be found below.\n\n`ilification`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 2,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": "clear"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-3174474882",
+	"type": "multiple-choice"
+}
